@@ -1,0 +1,53 @@
+# Data files (HR data, documents, datasets)
+data/
+datasets/
+raw_data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.parquet
+*.pdf
+*.docx
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector stores / embeddings / indexes
+chroma/
+chroma_db/
+vectorstore/
+vector_store/
+faiss_index/
+*.faiss
+*.pkl
+*.index
+
+# Secrets and credentials
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets/
+credentials*.json
+*.secret
+config.local.*
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
